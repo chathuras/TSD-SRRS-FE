@@ -469,7 +469,7 @@ hr{ border-top-color:#dadada;}
 }
 .site-stats li {
 	cursor: pointer; display:inline-block;
-	margin: 0 5px 10px; text-align:center; width:100%;
+	margin: 0 5px 10px; text-align:center; width:42%;
 	padding:10px 0; color:#fff;
 	position: relative;
 }
@@ -1249,6 +1249,17 @@ form {
 	height:115px;
 	overflow-x:auto;
 }
+
+.fix_hgt_home {
+	height:325px;
+	overflow-x:auto;
+}
+
+.fix_hgt_home2 {
+	height:294px;
+	overflow-x:auto;
+}
+
 .input-append .add-on:last-child, .input-append .btn:last-child {
 	border-radius:0px;
 	padding:6px 5px 2px;
@@ -1588,3 +1599,5 @@ div.dataTables_wrapper .ui-widget-header {
 }
 #sidebar .content{ display:none;}
 }
+
+.anchorTxt { color: #FFF !important; }
